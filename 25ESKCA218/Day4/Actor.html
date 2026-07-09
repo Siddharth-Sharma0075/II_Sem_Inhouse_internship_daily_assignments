@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Actor Details</title>
+    <style>
+        button{
+            width:200px;
+            height:60px;
+            font-size:20px;
+
+        }
+    </style>
+</head>
+<body>
+
+
+<h2>Click Any Actor</h2>
+<nav>
+<button onclick="khan()">Aamir khan</button>
+<button onclick="bachchan()">Amitabh bachchan</button>
+<button onclick="charan()">Ram charan</button>
+<button onclick="arjun()">Allu arjun</button>
+</nav>
+
+<br><br>
+
+<img id="img" src=""  width="250">
+<h2 id="movie"></h2>
+
+<script>
+
+
+function khan()
+{
+    img.src="Aamir.jpg";
+    movie.innerHTML="Movie : Lagan";
+}
+
+function bachchan()
+{
+    img.src="Amitabh.jpg";
+    movie.innerHTML="Movie : Baghban";
+}
+
+function charan()
+{
+    img.src="Ram.jpg";
+    movie.innerHTML="Movie : RRR";
+}
+
+function arjun()
+{
+    img.src="Allu.webp";
+    movie.innerHTML="Movie : Pushpa 2";
+}
+
+</script>
+</body>
+</html>
